@@ -1,22 +1,10 @@
-/
-header, footer, main {
-    padding: 20px;
-    background-color: #FFEB00;
-}
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    background-color: #FFEB00;
-}
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
 
-.copyright-text {
-    margin: 0;
-    padding: 0;
+    .menu {
+        display: block;
+    }
 }
