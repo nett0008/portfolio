@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #4B4A4A;
+    background-color: #222121;
 }
 .header .title {
    
@@ -11,6 +11,8 @@ body {
     left: 60%; /* Center horizontally */
     transform: translateX(-50%);
     color: #FFEB00;
+   
+   
     
 }
    
@@ -34,10 +36,19 @@ body {
 }
 .menu li {
    
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #FFEB00;
     margin-top: -10%;
     font-family:  'Arial Narrow', Arial, sans-serif;
     padding: 10px;
-    text-align: center;
-    display: block
-   
+    
+}
+.menu li a:hover {
+    color: #FFEB00; /* Change the link color on hover */
+}
+footer .copyright-text {
+    font-size: 14px;
+    opacity: 0.7;
+    color: #FFEB00;
 }
