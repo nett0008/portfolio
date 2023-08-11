@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #292020;
     font-family: 'Times New Roman', Times, serif;
-}
+}/* Header title and navigation menu */
 .header .title {
    
     position: relative;
@@ -14,7 +14,7 @@ body {
     color: #FFEB00;
 
     
-}
+}/* Main content */
 .main {
     max-width: 800px;
     margin: 0 auto;
@@ -23,9 +23,10 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-    
-    
+     /* Styling for the main content area */
 }
+    
+ /* Styling for the header image */
 
 .header-image {
     max-width: 100%; 
@@ -37,16 +38,17 @@ body {
     background-color: #FFEB00;
 
 }
-
+/* Navigation menu */
 
 .menu ul {
     
     list-style: none;
     display: flex;
     justify-content: flex-end; 
+       /* Styling for the navigation menu */
 }
 .menu li {
-   
+     /* Styling for menu items */
     text-transform: uppercase;
     font-size: 18px;
     color: #FFEB00;
@@ -56,18 +58,21 @@ body {
     
 }
 .menu li a:hover {
-    color: #FFEB00; /* Change the link color on hover */
-}
+    color: #FFEB00; 
+      /* Styling for menu item on hover */
+}/* Footer */
 footer .copyright-text {
     font-size: 14px;
     opacity: 0.7;
     color: #FFEB00;
+    /* Styling for copyright text in the footer */
 }
 footer {
     background-color: #000000;
     color: #FFEB00;
     padding: 20px; 
     text-align: center;
+     /* Styling for the footer */
 }
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// CONTACT SHEET CSS CODE     ///////////////////////////////////////////////////////////////////////////////////////////////////*/
 body {
@@ -75,33 +80,35 @@ body {
     padding: 0;
     background-color: #f2f2f2;
     font-family: Arial, sans-serif;
-}
+}/* Container for the contact form */
 .container {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
-}
+}/* Contact description */
 .contact-description {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-}
+}/* Contact form */
 .contact-form {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+    /* Styling for the contact form */
+}/* Styling for headings and labels */
 .contact-form h2 {
     margin-bottom: 10px;
+     /* Styling for headings and labels */
 }
 .contact-form label {
     display: inline-block;
     margin-bottom: 5px;
     font-weight: bold;
-}
+}/* Styling for inputs, selects, and textarea */
 .contact-form input,
 .contact-form select {
     width: 100%;
@@ -109,11 +116,14 @@ body {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
-}
+     /* Styling for inputs, selects, and textarea */
+}/* Styling for checkboxes */
 .contact-form input[type="checkbox"] {
     vertical-align: middle;
     margin-right: 5px;
-}
+        /* Styling for checkboxes */
+
+}/* Styling for the submit button */
 .contact-form textarea {
     resize: vertical;
     width: 100%;
@@ -121,6 +131,7 @@ body {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     box-sizing: border-box;
+      /* Styling for the submit button */
 }
 .contact-form button {
     background-color: #007bff;
@@ -133,7 +144,7 @@ body {
 }
 .contact-form button:hover {
     background-color: #0056b3;
-}
+}/* Styling for terms description */
 .terms-description {
     margin-top: 10px;
     padding: 10px;
@@ -141,12 +152,12 @@ body {
     border: 1px solid #ccc;
     border-radius: 3px;
     display: none;
-}
+}  /* Styling for terms description */
 .terms-description h3 {
     font-size: 18px;
     margin-bottom: 10px;
     color: #333;
-}
+}/* Styling for media queries on smaller screens */
 @media screen and (max-width: 600px) {
     .contact-form input,
     .contact-form select,
@@ -159,20 +170,24 @@ body {
     }
 }
 /*contact shheet nav css code */
+/* CSS for the navigation menu on the Contact sheet */
+/* This section includes styles for the navigation menu on the Contact sheet page */
 
+/* Header positioning */
 .header {
     position: relative;
-  
+   /* Styling for header */
 }
 
 .menu {
+     /* Styling for navigation menu */
     position: absolute;
     top: 0;
     right: 0;
     background-color: #333;
     padding-top: 6px;
     padding-left: 100%;
-    text-align: right; /* Align the menu text to the right */
+    text-align: right; 
     z-index: 100;
 }
 
@@ -184,7 +199,7 @@ body {
 
 .menu li {
     display: inline;
-    margin-left: 20px; /* Adjust margin for spacing between menu items */
+    margin-left: 20px; 
 }
 
 .menu a {
