@@ -212,3 +212,25 @@ body {
     background-color: #FFEB00;
 
 }
+/*        CSS TO ADD ABOUT PAGE                                  */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.photo {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin-top: 10px;
+}
