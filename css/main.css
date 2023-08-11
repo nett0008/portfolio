@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #841212;
+    background-color: #292020;
     font-family: 'Times New Roman', Times, serif;
 }
 .header .title {
@@ -232,5 +232,35 @@ img {
 }
 
 p {
+    line-height: 2;
+    padding: 10%;
     margin-top: 10px;
+}
+.menuu {
+    position: fixed; 
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.menuu ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+}
+
+.menuu li {
+    margin-right: 20px;
+}
+
+.menuu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menuu a:hover {
+    color: #FFEB00;
 }
