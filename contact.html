@@ -6,7 +6,20 @@
     <title>contact</title>
 
     <link href="css/main.css" rel="stylesheet">
-    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const termsCheckbox = document.getElementById("terms");
+            const termsDescription = document.querySelector(".terms-description");
+
+            termsCheckbox.addEventListener("change", function () {
+                if (termsCheckbox.checked) {
+                    termsDescription.classList.remove("hidden");
+                } else {
+                    termsDescription.classList.add("hidden");
+                }
+            });
+        });
+    </script>
 </head>
 <body>
   
@@ -16,7 +29,7 @@
         
         When it comes to availability, I aim to provide flexibility that aligns with your needs. For small-scale shoots, I'm generally not available on weekends. However, I believe that exciting and interesting projects have the power to bend schedules. If the project sparks my creativity and curiosity, I'm more than willing to consider weekend work.
         
-        So, if you have an exciting project in mind – whether it's a captivating web development endeavor, a stunning photography shoot, or a compelling videography project – please don't hesitate to get in touch. Your ideas and projects matter to me, and I'm eager to explore the potential of working together. Let's create something extraordinary!
+        So, if you have an exciting project in mind – whether it's a captivating web development endeavor, a stunning photography shoot, or a compelling videography project – please don't hesitate to get in touch. Your ideas and projects matter to me, and I'm eager to explore the potential of working together. Let's create something extraordinary!</p>
         
         <div class="contact-form">
             <h2>Contact Me</h2>
@@ -53,13 +66,11 @@
                 <textarea id="message" name="message"></textarea>
     
                 <input type="checkbox" id="terms" name="terms" required>
-                <label for="terms">
-                    I agree to the
-                    <span class="tooltip-text">
-                        Final deliverable output, irrespective of any kind of work committed, would be delivered in a time sooner depending on productivity, compatibility, and workload. Considering the urgency and importance of the situation, it may vary. The minimum amount of time required is 5 days.
-                    </span>
-                    terms and conditions.
-                </label>
+                <label for="terms">I agree to the terms and conditions.</label>
+
+                <div class="terms-description hidden">
+                    <p>The final deliverable output, irrespective of any kind of work committed, would be delivered in a time sooner depending on the productivity and compatibility of that work and also other workloads. Considering the urgency and importance of the situation, it may vary. The minimum amount of time required is 5 days.</p>
+                </div>
                 <button type="submit">Send</button>
             </form>
         </div>
@@ -67,7 +78,7 @@
         
         
         
-        </p>
+      
     <footer>
         <div class="copyright">
             <p class="copyright-text">© 2023 Scapemediadesign. All rights reserved.</p>
